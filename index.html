@@ -39,6 +39,12 @@
   Browser Anda tidak mendukung pemutar audio.
   </audio>
   
+<div style="text-align: center; margin-top: 1rem;">
+  <button id="tombolMusik" style="display: none; padding: 0.5rem 1rem; font-size: 1rem; border: none; background-color: #c71585; color: white; border-radius: 8px; cursor: pointer;">
+    ▶️ Putar Musik
+  </button>
+</div>
+  
   <h1>Layang Katresnan</h1>
 
   <div style="text-align:center; margin-bottom: 1.5rem;">
@@ -62,5 +68,22 @@
 
   <p class="signature">Kanthi tresna tulus,<br/>
   Kula, ingkang tansah ngraos kabagyan awit saking Mbak Tyas.</p>
+  
+  <script>
+  const audio = document.getElementById("musik");
+  const tombol = document.getElementById("tombolMusik");
+
+  // Coba autoplay
+  audio.play().catch(() => {
+    console.warn("Autoplay diblokir. Menampilkan tombol manual.");
+    tombol.style.display = "inline-block";
+  });
+
+  // Kalau tombol diklik, musik diputar
+  tombol.addEventListener("click", () => {
+    audio.play();
+    tombol.style.display = "none";
+  });
+  </script>
 </body>
 </html>
