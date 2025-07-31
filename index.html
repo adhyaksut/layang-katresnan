@@ -73,13 +73,11 @@
   const audio = document.getElementById("musik");
   const tombol = document.getElementById("tombolMusik");
 
-  // Coba autoplay
   audio.play().catch(() => {
     console.warn("Autoplay diblokir. Menampilkan tombol manual.");
     tombol.style.display = "inline-block";
   });
 
-  // Kalau tombol diklik, musik diputar
   tombol.addEventListener("click", () => {
     audio.play();
     tombol.style.display = "none";
