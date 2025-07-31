@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="jv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layang Katresnan</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fff0f5;
+      color: #4b2e2e;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 15px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      color: #c71585;
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    p {
+      line-height: 1.8;
+    }
+    .signature {
+      text-align: right;
+      font-style: italic;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Layang Katresnan</h1>
+  <div class="section">
+    <p><strong>Kagem:</strong> Panjenengan ingkang kula tresnani</p>
+    <p><strong>Saking:</strong> Kula, ingkang tansah ngraos tresna</p>
+  </div>
+
+  <div class="section">
+    <p>Wonten ing dinten ingkang ayem punika, kula nyerat layang alit punika kanggé ngaturaken raos saking jeroing manah...</p>
+    <p>Sayangku ingkang tansah ndadosaken gesang kula langkung ayem,</p>
+    <p>Kula nyuwun, tetepana wonten ing gesang kula. Kula sampun rumangsa nyaman sanget, ngantos boten saged mbayangaken kepiye gesang menawi boten wonten panjenengan ing sisih kula.</p>
+    <p>Saben dinten, katresnan kula dhateng panjenengan tansah tuwuh, dados langkung ageng saben wekdalipun. Panjenengan sampun dados bagéan wigati wonten ing urip kula, lan sejatine, kula nyuwun aja nate gadhah pamanggih kanggé nilaraken kula.</p>
+    <p>Mugi kita tansah bebarengan, ngupadi masa depan kanthi tulus, ngantos tekan palakrama. Menapa dene uji coba, tantangan, utawi kahanan ingkang boten saged dipun duga, mugi tansah kita lelampahi kanthi sesarengan.</p>
+    <p>Semangat terus, sayangku. Kula tansah ndedonga kanggé kabagyan lan kaslametan panjenengan. Mugi Gusti tansah maringi pangayoman, lan mugi tresna punika saged langgeng salami-laminipun.</p>
+    <p><em>"Kula tresna sanget dhateng panjenengan."</em></p>
+  </div>
+
+  <p class="signature">Kanthi tresna tulus,<br/>
+  Kula, ingkang tansah ngraos kabagyan awit saking panjenengan.</p>
+</body>
+</html>
